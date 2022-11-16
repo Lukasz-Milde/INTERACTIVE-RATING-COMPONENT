@@ -1,0 +1,79 @@
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+_____________GENERALS____________________
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Overpass", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	background-color: hsl(216, 12%, 8%);
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+_____________LAYOUT AND STYLES___________
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+/* ********* CARD STATE ONE ********** */
+
+.hide {
+	display: none;
+}
+
+.card {
+	width: 90%;
+	max-width: 40rem;
+	background-color: hsl(213, 19%, 18%);
+	margin: auto;
+	padding: 1.5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 13px;
+}
+
+.circle-block {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 1rem;
+	background-color: yellowgreen;
+}
+
+.star {
+}
+.card__title {
+	color: hsl(0, 0%, 100%);
+}
+
+.card__p {
+	color: hsl(217, 12%, 63%);
+}
+
+.rating {
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn-rating {
+	color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+	color: hsl(0, 0%, 100%);
+}

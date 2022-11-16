@@ -10,14 +10,20 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
-
+		<link rel="stylesheet" href="main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Frontend Mentor | Interactive rating component</title>
 	</head>
 	<body>
 		<main>
 			<div class="card">
 				<div class="card-state-1">
-					<div class="star">
+					<div class="circle-block star">
 						<img src="images/icon-star.svg" alt="star icon" />
 					</div>
 					<h1 class="card__title">How did we do?</h1>
@@ -28,11 +34,11 @@
 					</p>
 
 					<div class="rating">
-						<div class="btn-rating">1</div>
-						<div class="btn-rating">2</div>
-						<div class="btn-rating active">3</div>
-						<div class="btn-rating">4</div>
-						<div class="btn-rating">5</div>
+						<div class="circle-block btn-rating">1</div>
+						<div class="circle-block btn-rating">2</div>
+						<div class="circle-block btn-rating active">3</div>
+						<div class="circle-block btn-rating">4</div>
+						<div class="circle-block btn-rating">5</div>
 					</div>
 
 					<div class="btn-submit">Submit</div>
