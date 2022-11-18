@@ -19,10 +19,6 @@ body {
 _____________LAYOUT AND STYLES___________
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
-.hide {
-	display: none;
-}
-
 /* ********* BASIC CARD LAYOUT ********* */
 
 .card {
@@ -107,6 +103,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .btn-submit:focus {
 	background-color: white;
 	color: hsl(25, 97%, 53%);
+	cursor: pointer;
 }
 
 /* ********* CARD STATE TWO ********** */
@@ -136,4 +133,10 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .p--thank {
 	text-align: center;
 	margin-bottom: 0.5rem;
+}
+
+/* ********* CARD STATE TWO ********** */
+
+.hide {
+	display: none;
 }

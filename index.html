@@ -21,7 +21,7 @@
 	</head>
 	<body>
 		<main>
-			<div class="card hide">
+			<div class="card">
 				<div class="card-state-1">
 					<div class="circle-block star">
 						<img src="images/icon-star.svg" alt="star icon" />
@@ -41,21 +41,22 @@
 						<div class="circle-block btn-rating">5</div>
 					</div>
 
-					<div class="btn-submit">SUBMIT</div>
+					<div class="btn-submit"><div>SUBMIT</div></div>
 				</div>
-			</div>
 
-			<div class="card card-state-2">
-				<img src="images/illustration-thank-you.svg" alt="thank you image" />
-				<div type="text" class="result">
-					You selected out <span class="score">3</span> of 5
+				<div class="card-state-2 hide">
+					<img src="images/illustration-thank-you.svg" alt="thank you image" />
+					<div type="text" class="result">
+						You selected out <span class="score">3</span> of 5
+					</div>
+					<div class="card__title title--thank">Thank you!</div>
+					<p class="card__p p--thank">
+						We appreciate you taking the time to give a rating. If you ever need
+						more support, don’t hesitate to get in touch!
+					</p>
 				</div>
-				<div class="card__title title--thank">Thank you!</div>
-				<p class="card__p p--thank">
-					We appreciate you taking the time to give a rating. If you ever need
-					more support, don’t hesitate to get in touch!
-				</p>
 			</div>
 		</main>
+		<script src="/app.js"></script>
 	</body>
 </html>
